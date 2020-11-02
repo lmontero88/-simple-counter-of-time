@@ -1,24 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
+import './App.css';
+import Main from './Componentes/Main';
+
+function App(props) {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+   <Main reloj={props.reloj} h1={props.h1} h2={props.h2} m1={props.m1} m2={props.m2} s2={props.s2} s1={props.s1} Start={props.Start} Stop={props.Stop} Reset={props.Reset}/>
+    </>
   );
 }
 
