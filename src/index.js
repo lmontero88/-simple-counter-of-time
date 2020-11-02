@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import Digitos from './Componentes/Digitos';
+
 
 
 let reloj = 10;
